@@ -23,19 +23,10 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  badges[] = batch_badge_creator(attendees)
+  print batch_badge_creator(attendees)
   rooms = assign_rooms(attendees)
+
   
-  
-  counter = 0 
-  badges.each do | badge |
-  print badge
-  end
-  
-  
-  counter = 0 
-  
-  puts rooms[0]
   
   
 end
