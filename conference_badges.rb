@@ -29,7 +29,7 @@ def printer(attendees)
   
   counter = 0 
   badges.each do | badge |
-  puts badge
+  print badge
   end
   
   
