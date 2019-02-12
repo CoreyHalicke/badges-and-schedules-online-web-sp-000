@@ -24,5 +24,9 @@ end
 
 def printer(attendees)
   badges = batch_badge_creator(attendees)
-  print badges
+  counter = 0 
+  badges.each do | badge |
+    
+    counter += 1
+  end
 end
